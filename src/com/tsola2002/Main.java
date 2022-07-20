@@ -4,6 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 	  // write your code here
+        // This is a comment
+
+        /*
+        *  this ia a multiline comment
+        * */
         System.out.println("My first Java Program");
     }
 }
