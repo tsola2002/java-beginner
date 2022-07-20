@@ -4,6 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 	  // write your code here
-        System.out.println("My first Java Program");
+        String name = "Alex";
+        String surname = "Wang";
+        String fullname = name + " " + surname;
+        System.out.println(fullname);
+        String fullname2 = name.concat(" Vera ").concat(surname);
+        System.out.println(fullname2);
     }
 }
