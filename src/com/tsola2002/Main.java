@@ -9,6 +9,6 @@ public class Main {
         String name = "mark";
 
         System.out.println(isAdult || isStudent);
-        System.out.println((10 > 8 || 2 <= 2) && isAdult && name.contains("m"));
+        System.out.println((10 > 8 || 2 <= 2) && !isAdult && name.contains("m"));
     }
 }
