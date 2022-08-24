@@ -4,7 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-	      // write your code here
-        System.out.println("My first Java Program");
+        int count = 0;
+
+	      while ( count <=20 ) {
+            System.out.println("Count: " + count );
+            count++;
+        }
     }
 }
