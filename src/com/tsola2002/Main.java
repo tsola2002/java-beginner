@@ -9,9 +9,18 @@ public class Main {
 
         String[] names = {"Anna", "Ted", "Alex", "Tamara"};
 
+//        for( String name : names ) {
+//            System.out.println(name);
+//            break;
+//        }
+
         for( String name : names ) {
+            if(name.equals("Anna")) {
+                break;
+            }
             System.out.println(name);
-            break;
+
         }
+
     }
 }
