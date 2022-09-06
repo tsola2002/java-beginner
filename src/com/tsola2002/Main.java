@@ -5,6 +5,17 @@ public class Main {
     public static void main(String[] args) {
 
 	      // write your code here
-        System.out.println("My first Java Program");
+
+//          while (true) {
+//              // this will produce an infinite loop
+//              System.out.println(".");
+//          }
+
+        int count = 0;
+        while(count <= 20){
+            System.out.println("count = " + count);
+            count++;
+        }
+
     }
 }
